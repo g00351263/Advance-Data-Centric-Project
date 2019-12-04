@@ -1,1 +1,71 @@
-"# Advance-Data-Centric-Project" 
+Project		: Advance Data Centric.
+
+
+Notes: 	Wamp server has to be running.
+	database books has to be manuallay created.
+
+-------------------------------------------------------------------------------------------
+Details of Each Class and their Functions
+-------------------------------------------------------------------------------------------
+
+Controllers:
+------------
+
+Main Controller:
+---------------
+This is to manage the login and index page
+
+Book Controller:
+---------------
+This is to manage the operations on books such as view, add and delete
+
+Customer Controller:
+-------------------
+This is to  manage the operations on Customers such as view, add and delete
+
+Loan Controller:
+---------------
+This is to manage loans operations such as view, add and delete
+
+------------------------------------------------------------------------------------------------
+Service Layer:
+-------------
+
+Book Service:
+------------
+Book service is responsible for managing database operations on book table
+
+Customer Service:
+----------------
+Customer service is responsible for managing database operations on customer table
+
+Loan Service:
+------------
+Loan service is responsible for managing database operations on loan table
+
+------------------------------------------------------------------------------------------------
+Models:
+------
+DB tables models are
+   - Book
+   - Customer
+   - Loan 
+
+There are some other models for various tasks including
+   - Customer View
+   - Loan View
+   - New Loan Model
+   - Save Result
+   - MaxID
+
+------------------------------------------------------------------------------------------------
+Repositories:
+------------
+These are the JPA repositoies to manage actual database calls and queires
+   - Book Repository
+   - Customer Repository
+   - Loan Repository
+
+------------------------------------------------------------------------------------------------
+WebSecurityConfig.java:
+----------------------
